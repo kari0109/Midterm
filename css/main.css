@@ -3,7 +3,10 @@
 }
 
 .slideshow-container a{
-    
+    color: #32CD32;
+    font-weight: 900;
+    font-size: 50px;
+    background-color: #44373777;
 }
 
 /* Slideshow container */
