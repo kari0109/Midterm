@@ -161,7 +161,6 @@ nav ul li a{
 .products, .content{
     max-width: 80%;
     margin:auto;
-
 }
 
 .products img{
@@ -189,4 +188,46 @@ figure img{
 .about{
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+/************************************************ 
+                Mobile/Tablet Styles               
+************************************************/
+@media screen and (max-width:1500px){
+    .products, .content{
+        max-width: 100%;
+    }
+
+    .productswrapper{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+    }
+
+    .headerli{
+        flex-direction: column;
+    }
+
+    .li3{
+        order: 1;
+    }
+
+    .li1{
+        order: 2;
+    }
+
+    .li2{
+        order: 2;
+    }
+
+    .li4{
+        order: 2;
+    }
+
+    .li5{
+        order: 2;
+    }
 }
