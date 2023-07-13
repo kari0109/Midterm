@@ -231,3 +231,17 @@ figure img{
         order: 2;
     }
 }
+
+/************************************************ 
+                Mobile Styles               
+************************************************/
+@media screen and (max-width:600px){
+    .about{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    p{
+        max-width: 80%;
+        margin: auto;
+    }
+}
